@@ -5,7 +5,7 @@ import CallToAction from './CallToAction';
 import Footer from './Footer';
 import images from '../assets/images';
 
-const HomePage = () => {
+const Body = () => {
   return (
     <div id="HomePage_1" className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <Hero />
@@ -16,4 +16,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Body;
